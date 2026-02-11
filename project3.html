@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Project</title>
+  <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+
+  <!-- Back Button -->
+  <a href="index.html" class="back-btn">← Back to Home</a>
+
+  <!-- Main Card -->
+<div class="project-details-card">
+
+  <h1 class="project-title">European Pharmacy Sales & Profitability Intelligence Dashboard</h1>
+
+  <div class="section">
+    <h2 class="section-title">Tools Used</h2>
+    <p class="section-text">Power BI, Power Query, Excel</p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Data Source</h2>
+    <p class="section-text">
+      European Pharmacy Chain Sales Dataset (ZoomCharts Data Challenge)
+      <a href="#" class="section-link">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+    </p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Background</h2>
+    <p class="section-text">
+      Pharmacy distributors operate across multiple European countries,
+      generating large volumes of daily transactional sales data.
+      However, without structured analysis, it becomes difficult to
+      understand regional performance, product profitability, and
+      operational efficiency.
+      This project transforms pharmacy sales data into an interactive
+      Power BI dashboard that enables stakeholders to analyze revenue,
+      margin, geographic contribution, and product performance through
+      intuitive drill-down exploration.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Objective</h2>
+    <ul class="section-list">
+      <li>Monitor overall revenue, margin, and sales volume trends</li>
+      <li>Identify top and underperforming countries, regions, and pharmacies</li>
+      <li>Analyze Urban, Suburban, and Rural pharmacy performance differences</li>
+      <li>Evaluate product category and brand contribution</li>
+      <li>Assess the impact of promotions on revenue and profitability</li>
+      <li>Support data-driven decisions to improve profitability and regional growth</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Data Preparation</h2>
+    <p class="section-text">
+      Data cleaning and transformation were performed using Power Query to ensure
+      reliable and accurate analysis:
+    </p>
+    <ul class="section-list">
+      <li>Removed invalid sales records (negative revenue, cost, or zero units sold)</li>
+      <li>Standardized promotion flag values (YES / NO)</li>
+      <li>Verified revenue and cost calculations for margin consistency</li>
+      <li>Ensured correct data types for date and numeric fields</li>
+      <li>Prepared hierarchical fields for drill-down analysis</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Data Modeling</h2>
+    <p class="section-text">
+      A structured star schema model was implemented in Power BI to support
+      scalable and efficient analysis:
+    </p>
+    <ul class="section-list">
+      <li>Central fact table containing daily pharmacy sales transactions</li>
+      <li>Date dimension for time-based and seasonal analysis</li>
+      <li>Pharmacy dimension including country, region, and pharmacy type</li>
+      <li>Product dimension structured by category, brand, and product</li>
+      <li>DAX measures created for consistent KPI calculations</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Key Metrics (DAX-Driven KPIs)</h2>
+    <ul class="section-list">
+      <li>Total Revenue</li>
+      <li>Total Margin</li>
+      <li>Margin %</li>
+      <li>Total Units Sold</li>
+      <li>Promo vs Non-Promo Revenue</li>
+      <li>Pharmacy Revenue Ranking</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Project Overview</h2>
+
+    <div class="project-images">
+      <img src="picture website/project-chain1.png" alt="Data Model Diagram" class="project-image">
+      <img src="picture website/project-chain2.png" alt="Executive Overview Dashboard" class="project-image">
+      <img src="picture website/project-chain3.png" alt="Geographic & Product Analysis" class="project-image">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Key Analytical Insights</h2>
+    <ul class="section-list">
+      <li>Certain countries and regions contribute disproportionately to overall revenue and margin</li>
+      <li>Performance varies significantly across pharmacies within the same region</li>
+      <li>Urban pharmacies generally generate higher sales volumes</li>
+      <li>Some high-volume products deliver relatively low margins</li>
+      <li>Promotions increase sales volume but may reduce overall margin percentage</li>
+      <li>Clear seasonal sales patterns support better inventory planning</li>
+    </ul>
+  </div>
+
+  <div class="section">
+  <h2 class="section-title">Final Thoughts</h2>
+
+  <p class="section-text">
+    This analysis demonstrates that the pharmacy business is operating profitably,
+    with a stable average profit margin and strong overall sales performance.
+    However, performance varies across branches and promotional strategies.
+  </p>
+
+  <ul class="section-list">
+    <li><strong>Branch Performance:</strong> Some branches generate high revenue, while others achieve higher efficiency through stronger profit margins.</li>
+    <li><strong>Promotion Impact:</strong> Promotions successfully increase sales volume but reduce profit margin per unit.</li>
+    <li><strong>Profitability Focus:</strong> Sustainable growth depends not only on increasing sales but also on maintaining healthy margins.</li>
+    <li><strong>Strategic Insight:</strong> Data-driven decisions can help optimize pricing, promotion timing, and branch performance.</li>
+  </ul>
+
+  <p class="section-text">
+    Overall, this dashboard enables management to move beyond raw sales numbers
+    and focus on balanced growth — maximizing both revenue and profitability
+    through informed strategic decisions.
+  </p>
+</div>
+
+
+</body>
+</html>

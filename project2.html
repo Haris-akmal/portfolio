@@ -4,35 +4,149 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <title>Project</title>
   <link rel="stylesheet" href="project.css">
 </head>
+
 <body>
 
   <!-- Back Button -->
   <a href="index.html" class="back-btn">← Back to Home</a>
 
   <!-- Main Card -->
-  <div class="project-details-card">
-    <div class="project-1">
-    <h1 class="project-title">Sales Analysis</h1>
+<div class="project-details-card">
 
-    <p class="project-desc">
-      This Power BI report provides deep insights into the performance
-      of an influencer's merchandise business, covering sales, orders,
-      product categories, engagement trends, and more. Harits Hensem
+  <h1 class="project-title">Mental Health & Well-Being Analysis</h1>
+
+  <div class="section">
+    <h2 class="section-title">Tools Used</h2>
+    <p class="section-text">Power BI, Power Query, Excel</p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Data Source</h2>
+    <p class="section-text">
+      Mental Health Survey Dataset
+      <a href="#" class="section-link">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+    </p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Background</h2>
+    <p class="section-text">
+      Mental health has become an increasingly important topic in modern workplaces.
+      However, stress, stigma, and lack of awareness often prevent individuals from
+      seeking professional help. This project focuses on transforming mental health
+      survey data into an interactive Power BI dashboard to better understand
+      stress patterns, treatment behavior, and workplace support across different
+      demographics and occupations.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Objective</h2>
+    <ul class="section-list">
+      <li>Understand mental health treatment patterns across demographics</li>
+      <li>Identify factors associated with high stress and coping struggles</li>
+      <li>Analyze the impact of workplace conditions on mental well-being</li>
+      <li>Evaluate awareness of mental health care options</li>
+      <li>Support data-driven strategies to improve workplace mental health support</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Data Preparation</h2>
+    <p class="section-text">
+      Data cleaning and transformation were performed using Power Query to ensure
+      accurate and consistent analysis:
+    </p>
+    <ul class="section-list">
+      <li>Standardized Yes/No categorical responses</li>
+      <li>Handled missing values in employment-related fields</li>
+      <li>Renamed columns for clarity and consistency</li>
+      <li>Grouped related mental health indicators for analysis</li>
+      <li>Prepared the dataset for data modeling and reporting</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Data Modeling</h2>
+    <p class="section-text">
+      A structured data model was implemented in Power BI to support scalable and
+      efficient analysis:
+    </p>
+    <ul class="section-list">
+      <li>Central fact table containing mental health survey responses</li>
+      <li>Dimension tables for demographics, employment, and mental health factors</li>
+      <li>Custom date table derived from timestamps for time-based analysis</li>
+      <li>DAX measures created to ensure consistent KPI calculations</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Key Metrics (DAX-Driven KPIs)</h2>
+    <ul class="section-list">
+      <li>Total Respondents</li>
+      <li>Treatment Rate (%)</li>
+      <li>High Stress Rate (%)</li>
+      <li>Coping Struggles Rate (%)</li>
+      <li>Work Interest Decline (%)</li>
+      <li>Care Options Awareness (%)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Project Overview</h2>
+
+    <div class="project-images">
+      <img src="picture website/project-mental1.webp" alt="Data Model Diagram" class="project-image">
+      <img src="picture website/project-mental2.webp" alt="Mental Health Dashboard" class="project-image">
+      <img src="picture website/project-mental3.webp" alt="KPI Overview" class="project-image">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Key Analytical Insights</h2>
+    <ul class="section-list">
+      <li>Individuals with a family history of mental illness are more likely to seek treatment</li>
+      <li>Higher stress levels strongly correlate with coping struggles and mood swings</li>
+      <li>Longer periods spent indoors are associated with increased stress</li>
+      <li>Many respondents are unsure about available mental health care options</li>
+      <li>Workplace stigma remains a barrier to open mental health discussions</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Final Thoughts</h2>
+
+    <p class="section-text">
+      This project transformed raw mental health survey data into meaningful,
+      actionable insights that highlight key risk factors and awareness gaps.
+      Key takeaways include:
     </p>
 
-  </div>
+    <ul class="section-list">
+      <li><strong>Stress & Coping:</strong> High stress is closely linked to coping struggles, mood swings, and reduced work interest.</li>
+      <li><strong>Treatment Behavior:</strong> Family history plays a significant role in whether individuals seek mental health treatment.</li>
+      <li><strong>Workplace Awareness:</strong> Many employees lack clarity on available mental health care options.</li>
+      <li><strong>Stigma Impact:</strong> Reluctance to discuss mental health in professional settings remains a major challenge.</li>
+    </ul>
+
+    <p class="section-text">
+      These insights can help organizations design better mental health policies,
+      improve employee well-being, and foster a more supportive workplace culture.
+    </p>
   </div>
 
-</body>
-</html>
+</div>
+

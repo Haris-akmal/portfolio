@@ -15,7 +15,7 @@ window.addEventListener("click", function (e) {
     }
 });
 const typedTextSpan = document.querySelector(".typed-text");
-const textArray = ["a Data Analyst", "a Minecraft Builder"];
+const textArray = ["a Data Analyst", "a Freelancer"];
 const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 1500;
@@ -46,5 +46,6 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() {
     if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
 
 
